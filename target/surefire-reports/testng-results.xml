@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-07T15:01:09 IST" name="Suite" finished-at="2026-03-07T15:07:43 IST" duration-ms="393707">
+    <groups>
+    </groups>
+    <test started-at="2026-03-07T15:01:09 IST" name="BankManagerLoginTest" finished-at="2026-03-07T15:07:43 IST" duration-ms="393707">
+      <class name="testcases.AddCutomerTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:01:09 IST" name="setUp" finished-at="2026-03-07T15:01:09 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:01:10 IST" name="addCust" data-provider="getData" finished-at="2026-03-07T15:01:29 IST" duration-ms="19052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Shiva]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[sakkaram]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A335354]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:01:29 IST" name="quit" finished-at="2026-03-07T15:01:29 IST" duration-ms="501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:01:29 IST" name="addCust" data-provider="getData" finished-at="2026-03-07T15:07:31 IST" duration-ms="361214" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Krishna]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[police]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[B354546]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\frames.js:1007:23)
+    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("button[type='submit']")
+-   locator resolved to <button value="" type="submit" class="btn btn-default">Add Customer</button>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is visible, enabled and stable
+-   scrolling into view if needed
+-   done scrolling
+-   performing click action
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Error {
+  message='Timeout 30000ms exceeded.
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\frames.js:1007:23)
+    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:361:39)
+}
+Call log:
+- waiting for locator("button[type='submit']")
+-   locator resolved to <button value="" type="submit" class="btn btn-default">Add Customer</button>
+- attempting click action
+-   waiting for element to be visible, enabled and stable
+-   element is visible, enabled and stable
+-   scrolling into view if needed
+-   done scrolling
+-   performing click action
+
+at org.testng.Assert.fail(Assert.java:110)
+at base.BaseTest.click(BaseTest.java:128)
+at testcases.AddCutomerTest.addCust(AddCutomerTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:07:31 IST" name="quit" finished-at="2026-03-07T15:07:32 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:07:32 IST" name="addCust" data-provider="getData" finished-at="2026-03-07T15:07:43 IST" duration-ms="11012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupesh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Nyavanandi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[C325345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@5b1669c0]" started-at="2026-03-07T15:07:43 IST" name="quit" finished-at="2026-03-07T15:07:43 IST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testcases.AddCutomerTest -->
+    </test> <!-- BankManagerLoginTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,222 @@
+2026-02-20 13:44:05,957 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sakka\eclipse-workspace\Playwrightseries\DataDrivenFramework\src\test\resources\runner\testng.xml
+
+2026-02-20 13:51:56,654 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sakka\eclipse-workspace\Playwrightseries\DataDrivenFramework\src\test\resources\runner\testng.xml
+
+2026-02-20 13:54:00,968 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sakka\eclipse-workspace\Playwrightseries\DataDrivenFramework\src\test\resources\runner\testng.xml
+
+2026-02-20 13:54:56,979 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sakka\eclipse-workspace\Playwrightseries\DataDrivenFramework\src\test\resources\runner\testng.xml
+
+2026-02-20 13:57:30,013 INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\sakka\eclipse-workspace\Playwrightseries\DataDrivenFramework\src\test\resources\runner\testng.xml
+
+2026-02-22 14:18:46,038 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 14:18:57,374 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@58ce9668: 0 ms
+2026-02-22 14:18:57,388 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@7b205dbd: 14 ms
+2026-02-22 14:18:57,419 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7f0d96f2: 31 ms
+2026-02-22 14:18:57,429 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@7a1234bf: 10 ms
+2026-02-22 14:18:57,435 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@29ca3d04: 6 ms
+2026-02-22 14:18:57,441 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2766ca9d: 5 ms
+2026-02-22 14:18:57,446 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@b7c4869: 5 ms
+2026-02-22 14:27:36,795 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 14:27:46,367 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@3c7c886c: 0 ms
+2026-02-22 14:27:46,386 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2e6a5539: 18 ms
+2026-02-22 14:27:46,419 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@6fb365ed: 33 ms
+2026-02-22 14:27:46,428 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@3a12c404: 9 ms
+2026-02-22 14:27:46,434 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@7241a47d: 6 ms
+2026-02-22 14:27:46,441 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@324a0017: 6 ms
+2026-02-22 14:27:46,448 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@63798ca7: 7 ms
+2026-02-22 14:32:36,000 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 14:32:46,274 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@1eb6749b: 0 ms
+2026-02-22 14:32:46,291 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@150ab4ed: 17 ms
+2026-02-22 14:32:46,324 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@2364305a: 33 ms
+2026-02-22 14:32:46,330 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@16f7b4af: 6 ms
+2026-02-22 14:32:46,336 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@24bdb479: 5 ms
+2026-02-22 14:32:46,341 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@59d2103b: 4 ms
+2026-02-22 14:32:46,345 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@768ccdc5: 4 ms
+2026-02-22 17:34:19,471 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 10 ms.
+2026-02-22 17:34:19,491 ERROR org.testng.internal.Utils - [Error] org.testng.TestNGException: 
+Cannot inject @Test annotated Method [addCust] with [class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String, class java.lang.String].
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:436)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:350)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:693)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+	at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+	at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:924)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+
+2026-02-22 17:34:19,544 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@17f62e33: 0 ms
+2026-02-22 17:34:19,571 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@2034b64c: 26 ms
+2026-02-22 17:34:19,638 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@536f2a7e: 67 ms
+2026-02-22 17:34:19,650 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@43f02ef2: 11 ms
+2026-02-22 17:34:19,663 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@480d3575: 13 ms
+2026-02-22 17:34:19,674 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2dfaea86: 11 ms
+2026-02-22 17:34:19,679 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@6a8658ff: 5 ms
+2026-02-22 18:19:50,114 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 8 ms.
+2026-02-22 18:20:07,120 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@538613b3: 1 ms
+2026-02-22 18:20:07,160 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@560cbf1a: 39 ms
+2026-02-22 18:20:07,240 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@34abdee4: 78 ms
+2026-02-22 18:20:07,257 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5aa0dbf4: 17 ms
+2026-02-22 18:20:07,270 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@620aa4ea: 13 ms
+2026-02-22 18:20:07,302 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@c00fff0: 32 ms
+2026-02-22 18:20:07,317 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2f3c6ac4: 14 ms
+2026-02-22 18:24:11,004 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+2026-02-22 18:24:20,654 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@538613b3: 0 ms
+2026-02-22 18:24:20,674 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@560cbf1a: 19 ms
+2026-02-22 18:24:20,732 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@34abdee4: 57 ms
+2026-02-22 18:24:20,747 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5aa0dbf4: 15 ms
+2026-02-22 18:24:20,757 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@620aa4ea: 10 ms
+2026-02-22 18:24:20,770 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@c00fff0: 12 ms
+2026-02-22 18:24:20,779 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2f3c6ac4: 8 ms
+2026-02-22 18:32:16,959 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 7 ms.
+2026-02-22 18:32:29,105 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@538613b3: 0 ms
+2026-02-22 18:32:29,125 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@560cbf1a: 19 ms
+2026-02-22 18:32:29,175 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@34abdee4: 50 ms
+2026-02-22 18:32:29,184 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5aa0dbf4: 9 ms
+2026-02-22 18:32:29,196 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@620aa4ea: 11 ms
+2026-02-22 18:32:29,209 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@c00fff0: 13 ms
+2026-02-22 18:32:29,215 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@2f3c6ac4: 6 ms
+2026-02-22 18:36:46,142 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 18:36:56,218 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2187fff7: 0 ms
+2026-02-22 18:36:56,235 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6e57e95e: 16 ms
+2026-02-22 18:36:56,279 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@bc57b40: 44 ms
+2026-02-22 18:36:56,289 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5400db36: 9 ms
+2026-02-22 18:36:56,298 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5ca17ab0: 8 ms
+2026-02-22 18:36:56,306 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@10027fc9: 7 ms
+2026-02-22 18:36:56,313 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@51768776: 7 ms
+2026-02-22 18:46:18,895 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 2 ms.
+2026-02-22 18:46:29,552 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@2187fff7: 1 ms
+2026-02-22 18:46:29,571 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@6e57e95e: 18 ms
+2026-02-22 18:46:29,617 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@bc57b40: 46 ms
+2026-02-22 18:46:29,630 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@5400db36: 12 ms
+2026-02-22 18:46:29,639 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@5ca17ab0: 9 ms
+2026-02-22 18:46:29,647 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@10027fc9: 7 ms
+2026-02-22 18:46:29,655 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@51768776: 7 ms
+2026-02-22 19:25:22,057 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 19:25:46,948 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28952dea: 0 ms
+2026-02-22 19:25:46,969 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34237b90: 20 ms
+2026-02-22 19:25:46,998 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8326a4: 29 ms
+2026-02-22 19:25:47,012 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d7e1102: 13 ms
+2026-02-22 19:25:47,019 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ebadd3d: 7 ms
+2026-02-22 19:25:47,023 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@286b39c2: 4 ms
+2026-02-22 19:25:47,027 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5cbb84b1: 4 ms
+2026-02-22 19:27:31,792 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2026-02-22 19:27:57,144 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28952dea: 0 ms
+2026-02-22 19:27:57,160 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34237b90: 16 ms
+2026-02-22 19:27:57,186 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8326a4: 26 ms
+2026-02-22 19:27:57,200 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d7e1102: 14 ms
+2026-02-22 19:27:57,206 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ebadd3d: 5 ms
+2026-02-22 19:27:57,210 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@286b39c2: 4 ms
+2026-02-22 19:27:57,215 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5cbb84b1: 5 ms
+2026-02-22 19:39:18,890 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-22 19:39:42,745 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28952dea: 0 ms
+2026-02-22 19:39:42,766 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34237b90: 21 ms
+2026-02-22 19:39:42,802 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8326a4: 35 ms
+2026-02-22 19:39:42,820 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d7e1102: 18 ms
+2026-02-22 19:39:42,828 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ebadd3d: 8 ms
+2026-02-22 19:39:42,835 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@286b39c2: 6 ms
+2026-02-22 19:39:42,840 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5cbb84b1: 5 ms
+2026-02-22 19:40:31,098 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-22 19:40:56,086 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28952dea: 0 ms
+2026-02-22 19:40:56,102 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34237b90: 16 ms
+2026-02-22 19:40:56,139 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8326a4: 37 ms
+2026-02-22 19:40:56,147 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d7e1102: 7 ms
+2026-02-22 19:40:56,153 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ebadd3d: 6 ms
+2026-02-22 19:40:56,157 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@286b39c2: 4 ms
+2026-02-22 19:40:56,161 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5cbb84b1: 4 ms
+2026-02-22 19:42:39,709 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-22 19:43:08,596 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28952dea: 1 ms
+2026-02-22 19:43:08,614 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34237b90: 18 ms
+2026-02-22 19:43:08,646 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8326a4: 31 ms
+2026-02-22 19:43:08,660 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d7e1102: 14 ms
+2026-02-22 19:43:08,669 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ebadd3d: 9 ms
+2026-02-22 19:43:08,674 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@286b39c2: 5 ms
+2026-02-22 19:43:08,678 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5cbb84b1: 4 ms
+2026-02-22 19:54:21,914 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-22 19:54:47,806 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@28952dea: 0 ms
+2026-02-22 19:54:47,824 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@34237b90: 17 ms
+2026-02-22 19:54:47,850 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7c8326a4: 26 ms
+2026-02-22 19:54:47,863 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@2d7e1102: 13 ms
+2026-02-22 19:54:47,870 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4ebadd3d: 7 ms
+2026-02-22 19:54:47,874 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@286b39c2: 4 ms
+2026-02-22 19:54:47,879 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5cbb84b1: 5 ms
+2026-02-22 20:10:18,080 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2026-02-22 20:10:43,342 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 20:10:43,374 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 31 ms
+2026-02-22 20:10:43,406 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 32 ms
+2026-02-22 20:10:43,415 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 9 ms
+2026-02-22 20:10:43,422 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 7 ms
+2026-02-22 20:10:43,427 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 5 ms
+2026-02-22 20:10:43,431 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 4 ms
+2026-02-22 20:13:24,065 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 20:13:49,203 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 20:13:49,223 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 19 ms
+2026-02-22 20:13:49,259 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 36 ms
+2026-02-22 20:13:49,267 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 7 ms
+2026-02-22 20:13:49,273 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 6 ms
+2026-02-22 20:13:49,277 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 4 ms
+2026-02-22 20:13:49,280 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 3 ms
+2026-02-22 20:46:56,581 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 20:47:19,322 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 20:47:19,351 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 29 ms
+2026-02-22 20:47:19,394 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 43 ms
+2026-02-22 20:47:19,403 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 9 ms
+2026-02-22 20:47:19,410 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 7 ms
+2026-02-22 20:47:19,415 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 5 ms
+2026-02-22 20:47:19,419 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 4 ms
+2026-02-22 20:58:34,653 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 20:59:00,638 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 20:59:00,666 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 27 ms
+2026-02-22 20:59:00,706 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 40 ms
+2026-02-22 20:59:00,714 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 8 ms
+2026-02-22 20:59:00,720 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 5 ms
+2026-02-22 20:59:00,724 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 4 ms
+2026-02-22 20:59:00,729 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 4 ms
+2026-02-22 23:13:52,360 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 3 ms.
+2026-02-22 23:14:16,608 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 23:14:16,624 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 16 ms
+2026-02-22 23:14:16,669 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 44 ms
+2026-02-22 23:14:16,678 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 9 ms
+2026-02-22 23:14:16,685 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 7 ms
+2026-02-22 23:14:16,690 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 5 ms
+2026-02-22 23:14:16,695 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 5 ms
+2026-02-22 23:27:12,261 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+2026-02-22 23:27:34,161 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 23:27:34,183 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 21 ms
+2026-02-22 23:27:34,217 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 34 ms
+2026-02-22 23:27:34,226 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 9 ms
+2026-02-22 23:27:34,232 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 5 ms
+2026-02-22 23:27:34,237 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 5 ms
+2026-02-22 23:27:34,242 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 5 ms
+2026-02-22 23:44:23,647 INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+2026-02-22 23:44:47,146 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@7e97551f: 0 ms
+2026-02-22 23:44:47,173 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.SuiteHTMLReporter@5a4c638d: 26 ms
+2026-02-22 23:44:47,210 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@60baef24: 37 ms
+2026-02-22 23:44:47,223 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@349d0836: 12 ms
+2026-02-22 23:44:47,230 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@38499e48: 7 ms
+2026-02-22 23:44:47,236 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@2c779e5: 5 ms
+2026-02-22 23:44:47,242 INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@5328a9c1: 5 ms
