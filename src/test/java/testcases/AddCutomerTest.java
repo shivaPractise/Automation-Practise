@@ -9,7 +9,7 @@ import base.BaseTest;
 import utilities.ExcelReader;
 
 public class AddCutomerTest extends BaseTest {
-//Customer test case
+//Customer test case new
 	@Test(dataProvider = "getData")
 	public void addCust(String runMode, String firstName, String lastName, String postCode, String br) throws InterruptedException {
 		
@@ -26,7 +26,7 @@ public class AddCutomerTest extends BaseTest {
 		type("first_name",firstName);
 		type("last_name",lastName);
 		type("post_code",postCode);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		click("customer_submit");
 		Thread.sleep(2000);
 		
