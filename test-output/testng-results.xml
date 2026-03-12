@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-07T14:53:14 IST" name="Suite" finished-at="2026-03-07T14:53:56 IST" duration-ms="42845">
+  <suite started-at="2026-03-12T13:29:19 IST" name="Suite" finished-at="2026-03-12T13:30:15 IST" duration-ms="56400">
     <groups>
     </groups>
-    <test started-at="2026-03-07T14:53:14 IST" name="BankManagerLoginTest" finished-at="2026-03-07T14:53:56 IST" duration-ms="42845">
+    <test started-at="2026-03-12T13:29:19 IST" name="BankManagerLoginTest" finished-at="2026-03-12T13:30:15 IST" duration-ms="56400">
       <class name="testcases.AddCutomerTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:14 IST" name="setUp" finished-at="2026-03-07T14:53:14 IST" duration-ms="30" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:29:19 IST" name="setUp" finished-at="2026-03-12T13:29:19 IST" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:14 IST" name="addCust" data-provider="getData" finished-at="2026-03-07T14:53:33 IST" duration-ms="18619" status="PASS">
+        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:29:19 IST" name="addCust" data-provider="getData" finished-at="2026-03-12T13:29:47 IST" duration-ms="27753" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCust -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:33 IST" name="quit" finished-at="2026-03-07T14:53:33 IST" duration-ms="702" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:29:47 IST" name="quit" finished-at="2026-03-12T13:29:47 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:33 IST" name="addCust" data-provider="getData" finished-at="2026-03-07T14:53:45 IST" duration-ms="12163" status="PASS">
+        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:29:47 IST" name="addCust" data-provider="getData" finished-at="2026-03-12T13:30:02 IST" duration-ms="14378" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCust -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:45 IST" name="quit" finished-at="2026-03-07T14:53:46 IST" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:30:02 IST" name="quit" finished-at="2026-03-12T13:30:02 IST" duration-ms="607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:46 IST" name="addCust" data-provider="getData" finished-at="2026-03-07T14:53:56 IST" duration-ms="9735" status="PASS">
+        <test-method signature="addCust(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:30:02 IST" name="addCust" data-provider="getData" finished-at="2026-03-12T13:30:15 IST" duration-ms="12829" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addCust -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@13d9cbf5]" started-at="2026-03-07T14:53:56 IST" name="quit" finished-at="2026-03-07T14:53:56 IST" duration-ms="673" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:testcases.AddCutomerTest@41488b16]" started-at="2026-03-12T13:30:15 IST" name="quit" finished-at="2026-03-12T13:30:15 IST" duration-ms="240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
