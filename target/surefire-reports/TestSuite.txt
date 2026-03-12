@@ -1,21 +1,21 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 395.1 sec <<< FAILURE! - in TestSuite
-addCust(testcases.AddCutomerTest)  Time elapsed: 361.677 sec  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 83.281 sec <<< FAILURE! - in TestSuite
+addCust(testcases.AddCutomerTest)  Time elapsed: 35.101 sec  <<< FAILURE!
 java.lang.AssertionError: Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\frames.js:1007:23)
+    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
-- waiting for locator("button[type='submit']")
--   locator resolved to <button value="" type="submit" class="btn btn-default">Add Customer</button>
+- waiting for locator("button[ng-click='manager()']")
+-   locator resolved to <button ng-click="manager()" class="btn btn-primary btn-…>Bank Manager Login</button>
 - attempting click action
 -   waiting for element to be visible, enabled and stable
 -   element is visible, enabled and stable
@@ -25,5 +25,5 @@ Call log:
 
 	at org.testng.Assert.fail(Assert.java:110)
 	at base.BaseTest.click(BaseTest.java:128)
-	at testcases.AddCutomerTest.addCust(AddCutomerTest.java:30)
+	at testcases.AddCutomerTest.addCust(AddCutomerTest.java:22)
 

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="19.061" tests="3" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="24.896" tests="3" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sakka\eclipse-workspace\Playwrightseries\DataDrivenFramework"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/sakka/eclipse-workspace/Playwrightseries/DataDrivenFramework"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -25,26 +25,26 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="cp437"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Program Files\Maven\apache-maven-3.9.11\bin\m2.conf"/>
+    <property name="classworlds.conf" value="C:/Program Files/Maven/apache-maven-3.9.11/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="cp437"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Python314\Scripts\;C:\Python314\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-21.0.10\bin;C:\Program Files\Maven\apache-maven-3.9.11\bin;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\sakka\AppData\Local\Microsoft\WindowsApps;C:\Users\sakka\AppData\Roaming\npm;."/>
-    <property name="maven.conf" value="C:\Program Files\Maven\apache-maven-3.9.11/conf"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\sakka\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\sakka\bin;C:\Python314\Scripts;C:\Python314;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Java\jdk-21.0.10\bin;C:\Program Files\Maven\apache-maven-3.9.11\bin;C:\Program Files (x86)\Common Files\Intuit\QBPOSSDKRuntime;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Users\sakka\AppData\Local\Microsoft\WindowsApps;C:\Users\sakka\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Program Files/Maven/apache-maven-3.9.11/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="65.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
-    <property name="library.jansi.path" value="C:\Program Files\Maven\apache-maven-3.9.11\lib\jansi-native"/>
+    <property name="library.jansi.path" value="C:/Program Files/Maven/apache-maven-3.9.11/lib/jansi-native"/>
     <property name="user.home" value="C:\Users\sakka"/>
     <property name="user.timezone" value="Asia/Calcutta"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="21"/>
     <property name="user.name" value="sakka"/>
-    <property name="java.class.path" value="C:\Program Files\Maven\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
+    <property name="java.class.path" value="C:/Program Files/Maven/apache-maven-3.9.11/boot/plexus-classworlds-2.9.0.jar"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -60,21 +60,21 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="addCust" classname="testcases.AddCutomerTest" time="19.061"/>
-  <testcase name="addCust" classname="testcases.AddCutomerTest" time="361.677">
-    <failure message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\progress.js:78:26)&#10;    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\frames.js:1007:23)&#10;    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\frameDispatcher.js:158:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;button[type=&apos;submit&apos;]&quot;)&#10;-   locator resolved to &lt;button value=&quot;&quot; type=&quot;submit&quot; class=&quot;btn btn-default&quot;&gt;Add Customer&lt;/button&gt;&#10;- attempting click action&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   performing click action&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error {
+  <testcase name="addCust" classname="testcases.AddCutomerTest" time="24.896"/>
+  <testcase name="addCust" classname="testcases.AddCutomerTest" time="35.101">
+    <failure message="Error {&#10;  message=&apos;Timeout 30000ms exceeded.&#10;  name=&apos;TimeoutError&#10;  stack=&apos;TimeoutError: Timeout 30000ms exceeded.&#10;    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\progress.js:78:26)&#10;    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\frames.js:1007:23)&#10;    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\frameDispatcher.js:158:30)&#10;    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:94:40)&#10;    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:361:39)&#10;}&#10;Call log:&#10;- waiting for locator(&quot;button[ng-click=&apos;manager()&apos;]&quot;)&#10;-   locator resolved to &lt;button ng-click=&quot;manager()&quot; class=&quot;btn btn-primary btn-…&gt;Bank Manager Login&lt;/button&gt;&#10;- attempting click action&#10;-   waiting for element to be visible, enabled and stable&#10;-   element is visible, enabled and stable&#10;-   scrolling into view if needed&#10;-   done scrolling&#10;-   performing click action&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\frames.js:1007:23)
+    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
-- waiting for locator("button[type='submit']")
--   locator resolved to <button value="" type="submit" class="btn btn-default">Add Customer</button>
+- waiting for locator("button[ng-click='manager()']")
+-   locator resolved to <button ng-click="manager()" class="btn btn-primary btn-…>Bank Manager Login</button>
 - attempting click action
 -   waiting for element to be visible, enabled and stable
 -   element is visible, enabled and stable
@@ -84,36 +84,26 @@ Call log:
 
 	at org.testng.Assert.fail(Assert.java:110)
 	at base.BaseTest.click(BaseTest.java:128)
-	at testcases.AddCutomerTest.addCust(AddCutomerTest.java:30)
+	at testcases.AddCutomerTest.addCust(AddCutomerTest.java:22)
 ]]></failure>
-    <system-err><![CDATA[Mar 07, 2026 3:01:30 PM base.BaseTest getBrowser
+    <system-err><![CDATA[Mar 12, 2026 12:52:35 PM base.BaseTest getBrowser
 INFO: Launching Firefox Browser
-Mar 07, 2026 3:01:44 PM base.BaseTest navigate
+Mar 12, 2026 12:52:38 PM base.BaseTest navigate
 INFO: Navigated to :https://way2automation.com/angularjs-protractor/banking/#/login
-Mar 07, 2026 3:01:47 PM base.BaseTest click
-INFO: Clicking on an element : bankManager_login
-Mar 07, 2026 3:01:49 PM base.BaseTest click
-INFO: Clicking on an element : add_cst_btn
-Mar 07, 2026 3:01:51 PM base.BaseTest type
-INFO: Typing in an Element : first_name and entered the value as :Krishna
-Mar 07, 2026 3:01:51 PM base.BaseTest type
-INFO: Typing in an Element : last_name and entered the value as :police
-Mar 07, 2026 3:01:51 PM base.BaseTest type
-INFO: Typing in an Element : post_code and entered the value as :B354546
-Mar 07, 2026 3:07:31 PM base.BaseTest click
+Mar 12, 2026 12:53:10 PM base.BaseTest click
 SEVERE: Error while clicking on the element :Error {
   message='Timeout 30000ms exceeded.
   name='TimeoutError
   stack='TimeoutError: Timeout 30000ms exceeded.
-    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\progress.js:78:26)
-    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\frames.js:1007:23)
-    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\frameDispatcher.js:158:30)
-    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:94:40)
-    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-15949404720631461483\package\lib\server\dispatchers\dispatcher.js:361:39)
+    at ProgressController.run (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\progress.js:78:26)
+    at Frame.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\frames.js:1007:23)
+    at FrameDispatcher.click (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at FrameDispatcher._handleCommand (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:94:40)
+    at DispatcherConnection.dispatch (C:\Users\sakka\AppData\Local\Temp\playwright-java-6956210305813016584\package\lib\server\dispatchers\dispatcher.js:361:39)
 }
 Call log:
-- waiting for locator("button[type='submit']")
--   locator resolved to <button value="" type="submit" class="btn btn-default">Add Customer</button>
+- waiting for locator("button[ng-click='manager()']")
+-   locator resolved to <button ng-click="manager()" class="btn btn-primary btn-…>Bank Manager Login</button>
 - attempting click action
 -   waiting for element to be visible, enabled and stable
 -   element is visible, enabled and stable
@@ -123,5 +113,5 @@ Call log:
 
 ]]></system-err>
   </testcase>
-  <testcase name="addCust" classname="testcases.AddCutomerTest" time="11.013"/>
+  <testcase name="addCust" classname="testcases.AddCutomerTest" time="15.325"/>
 </testsuite>

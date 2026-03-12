@@ -1,0 +1,11 @@
+testcases\AddCutomerTest.class
+utilities\MonitoringMail$SMTPAuthenticator.class
+utilities\MonitoringMail.class
+testcases\BankManagerLoginTest.class
+rough\UserRegTest.class
+utilities\ExcelReader.class
+base\BaseTest.class
+rough\LogIn.class
+utilities\TestConfig.class
+extentlisteners\ExtentListeners.class
+extentlisteners\ExtentManager.class
